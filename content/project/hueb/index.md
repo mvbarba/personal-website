@@ -13,7 +13,7 @@ image:
 links:
 - icon: award
   icon_pack: fas
-  name: Top 10 of 700 Game Jam
+  name: 2nd place out of 70+ games
   url: 
 url_code: ""
 url_pdf: ""
@@ -27,42 +27,22 @@ url_video: ""
 #   Otherwise, set `slides = ""`.
 slides: ""
 ---
-[Link to **playable build**](https://mbarba.itch.io/antigolf)
+[Link to **playable build**](https://mbarba.itch.io/hueb)
 
-[Link to **github repo**](https://github.com/mvbarba/antigolf)
+[Link to **github repo**](https://github.com/mvbarba/hueb)
 
-ANTIGOLF is a 2D puzzle game made in Unity, created to be played on PC, Mobile, or in browser. The goal of the game is the opposite of golf, you want to NOT get the ball in the hole in a given amount of strokes. The game was initially created for the Brackey's 2020.1 Game Jam, in which it was well received.
+HUEb is a 3D first-person puzzle game made in Unity, inspired by Portal and Antichamber. In HUEb, you jump between dimensions in order to solve 3D physics puzzles. The game was initially created for the WGJ, in which it received 2nd place out of over 70 entries.
 
-![Image of stats for the game jam](/img/antigolf/score1.png)
+![Hueb's itch.io score](/img/hueb/huebscore.PNG)
 
-As seen in the picture above, ANTIGOLF scored in the top 10 overall from over 700 other submission, and in the top 5 in categories such as "fun" and "innovation".
+![Screenshot of hueb elevator](/img/hueb/huebgif1.gif)
 
-![Promo gif for ANTIGOLF](/img/antigolf/gif1.gif)
+I wrote multiple custom shaders for this project in HLSL, which can be seen in the forcefield surrounding the elevator buttons, the outline that stylizes the entire game, and the dissolve effect that appears on objects when you change dimensions. 
 
-Although the game was fairly simple, the high levels of polish applied, especially for a game made in **six days** made it a highly competitive entry. 
+![Screenshot of hueb dissolve material](/img/hueb/huebgif2.gif)
 
-![GIF showcasing the menu polish of ANTIGOLF](/img/antigolf/menugif.gif)
+![Screenshot of hueb level transition sequence](/img/hueb/huebgif3.gif)
 
-Below is a small snippet of code from script that controlled the hole movement, demonstrating some simple vector math skills.  
+By quickly coming up with a game mechanic that was easy to expand into multiple levels, we were able to spend a lot of time on polish, making the game feel clean and satisfying to play. 
 
-```cs
-// First, check that this hole is of type Homing. Then, make it home onto our target's location.
-if (moveType == HoleMoveType.Homing)
-    {
-    	// Get our direction vector by subtracting the target position from our position, and normalizing it
-        Vector2 direction = (Vector2)target.position - rb.position;
-        direction.Normalize();
-
-		// Take the z-component of our cross product to find the amount to rotate to
-		// This works because it will be 0 when we are facing the target
-        float rotateAmount = Vector3.Cross(direction, transform.up).z;
-
-        // Rotate 
-        rb.angularVelocity = -rotateAmount * rotateSpeed;
-
-        // Move straight forwards in the direction you are facing
-        rb.velocity = transform.up * speed;
-    }
-```
-
-![Screenshot of ANTIGOLF](/img/antigolf/screenshot1.PNG)
+All around, I am super proud of the game, especially for being made in under a week. 
