@@ -35,7 +35,9 @@ education:
   courses:
   - course: CS 121 Intro to Programming in Java
   - course: CS 187 Programming with Data Structures
+  - course: CS 197u Introduction to Unix
   - course: CS 230 Computer Systems Principles
+  - course: CS 250 Intro to Computation (Discrete)
   - course: CS 311 Algorithms
   - course: Math 131 & 132 & 233 Calculus 1-3
   - course: Math 235 Linear Algebra
