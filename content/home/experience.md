@@ -18,22 +18,31 @@ date_format = "Jan 2006"
 #   Leave `date_end` empty if it's your current employer.
 #   Begin/end multi-line descriptions with 3 quotes `"""`.
 [[experience]]
-  title = "Part-Time Software Engineer"
+  title = "Software Engineer"
   company = "Buh! Gaming"
   company_url = "https://buhgaming.com/"
-  location = "Kirkland, WA (Remote)"
+  location = "Kirkland, WA"
   date_start = "2019-09-01"
-  date_end = ""
-  description = """Continue my responsibilities during internship as a contractor. Balance work with priorities in mind using a ticketing system and version control (SVN), while always applying the SDLC to all of my work."""
+  date_end = "2020-08-01"
+  description = """Developed many systems in Unity (C#) for the upcoming **third-person MOBA** Tournament of Tamers. Presented at the **Seattle Indies Expo** after being selected by their judge panel. Currently released on Steam early access with **over 3,000 players.** Built an **analytics system** to easily observe player trends and balance characters. Worked on **gameplay** (new characters abilities), **UI**, minion **AI**, Steamworks API integration, **networking**."""
+
+  [[experience]]
+  title = "Software Engineer"
+  company = "Buh! Gaming"
+  company_url = "https://buhgaming.com/"
+  location = "Kirkland, WA"
+  date_start = "2019-05-01"
+  date_end = "2019-09-01"
+  description = """"""
 
 [[experience]]
   title = "Software Engineer Intern"
-  company = "Buh! Gaming"
-  company_url = "https://buhgaming.com/"
-  location = "Kirkland, WA (Remote)"
-  date_start = "2019-05-01"
-  date_end = "2019-09-01"
-  description = """Assist in the development of Tournament of Tamers, the third-person MOBA. Work independently with the guidance of a small team of engineers to implement a wide variety of new features, and debug current features on an existing Unity3D C# codebase."""
+  company = "BAE Systems"
+  company_url = "https://www.baesystems.com/en/home"
+  location = "Merrimack, NH"
+  date_start = "2020-05-01"
+  date_end = "2020-06-01"
+  description = """Canceled due to COVID-19."""
 
 [[experience]]
   title = "Junior System Administrator"
@@ -42,15 +51,15 @@ date_format = "Jan 2006"
   location = "Franklin, MA"
   date_start = "2019-04-01"
   date_end = "2019-08-01"
-  description = """Work with the IT department to oversee and optimize the network spanned across the four Dean Bank branches. Integrate new applications, VMs, and hardware in a busy production environment."""
+  description = """Write scripts to automate bank IT processes. Integrate new VMs into bank environment."""
 
-[[experience]]
+  [[experience]]
   title = "Technology Assistant Intern"
   company = "Dean Bank"
   company_url = "https://www.deanbank.com/"
   location = "Franklin, MA"
   date_start = "2018-09-01"
   date_end = "2019-04-01"
-  description = """Worked over the summer and during school through a co-op education program. Support end users in a variety of disciplines with hardware and software troubleshooting. Quickly familiarize myself with bank applications and equipment for effective troubleshooting. """
+  description = """"""
 
 +++

@@ -17,4 +17,4 @@ autolink = true
 #   2: formspree.io
 email_form = 1
 +++
-Or, contact me directly at [michaelvbarba@gmail.com](mailto:michaelvbarba@gmail.com)
+Or, contact me directly at [me@mbarba.com](mailto:me@mbarba.com)
