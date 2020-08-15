@@ -10,7 +10,7 @@ authors:
 superuser: true
 
 # Role/position
-role: Computer Science Student and Part-Time Software Engineer
+role: Computer Science Student and Software Engineer
 
 # Organizations/Affiliations
 organizations:
