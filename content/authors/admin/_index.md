@@ -39,9 +39,11 @@ education:
   - course: CS 230 Computer Systems Principles
   - course: CS 250 Intro to Computation (Discrete)
   - course: CS 311 Algorithms
+  - course: CS 575 Graph Theory and Combinatorics 
   - course: Math 131 & 132 & 233 Calculus 1-3
   - course: Math 235 Linear Algebra
   - course: Math 551 Scientific Computing
+
 
 # Social/Academic Networking
 # For available icons, see: https://sourcethemes.com/academic/docs/page-builder/#icons
