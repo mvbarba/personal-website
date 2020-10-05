@@ -27,7 +27,7 @@ date_format = "Jan 2006"
   description = """Developed many systems in Unity (C#) for the upcoming **third-person MOBA** Tournament of Tamers. Presented at the **Seattle Indies Expo** after being selected by their judge panel. Currently released on Steam early access with **over 3,000 players.** Built an **analytics system** to easily observe player trends and balance characters. Worked on **gameplay** (new characters abilities), **UI**, minion **AI**, Steamworks API integration, **networking**."""
 
   [[experience]]
-  title = "Software Engineer"
+  title = "Software Engineer Intern"
   company = "Buh! Gaming"
   company_url = "https://buhgaming.com/"
   location = "Kirkland, WA"
